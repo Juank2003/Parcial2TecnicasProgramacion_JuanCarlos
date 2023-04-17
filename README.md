@@ -19,3 +19,7 @@ a) Debo utilizar la palabra reservada self como prefijo
 
 ### 5) En el paradigma de la programación orientado a objetos:
 b) Se favorece la semántica y la reutilización de código en detrimento del rendimiento
+
+## Ejercicio 2
+### ¿Cuáles son las características de la programación orientada a objetos?
+La programación orientada a objetos permite crear código modular y reutilizable, se basa en la idea de modelar el mundo real como una colección de objetos, que interactúan entre sí para cumplir con una tarea o resolver un problema. Algunas de las características fundamentales de la programación orientada a objetos son: encapsulación, Abstracción, Herencia y Polimorfismo entre otros.
