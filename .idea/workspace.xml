@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="ClaseCanoe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/battlesShip/Main.java" afterDir="false" />
+    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="CreacionMain">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681750767910</updated>
-      <workItem from="1681750769410" duration="5111000" />
+      <workItem from="1681750769410" duration="5783000" />
     </task>
     <task id="LOCAL-00001" summary="CreacionCardinalPoints">
       <created>1681751881573</created>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681756104352</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CreacionMain">
+      <created>1681756395527</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681756395527</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +168,7 @@
     <MESSAGE value="BattleShipConModificacionesEnShip" />
     <MESSAGE value="ClaseFrigate" />
     <MESSAGE value="ClaseCanoe" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClaseCanoe" />
+    <MESSAGE value="CreacionMain" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreacionMain" />
   </component>
 </project>

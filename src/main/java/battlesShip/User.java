@@ -55,7 +55,7 @@ public class User {
     }
 
     // Is all ships sunk method
-    private boolean isAllShipsSunk() {
+    protected boolean isAllShipsSunk() {
         for (Ship ship : ships) {
             if (!ship.isSunk()) {
                 return false;
