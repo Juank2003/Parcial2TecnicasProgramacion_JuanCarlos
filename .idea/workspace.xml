@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="ClaseShip">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/Ship.java" afterDir="false" />
+    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="ClaseShipCambioMetodos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/battlesShip/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681750767910</updated>
-      <workItem from="1681750769410" duration="1869000" />
+      <workItem from="1681750769410" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="CreacionCardinalPoints">
       <created>1681751881573</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681752458996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ClaseShipCambioMetodos">
+      <created>1681753218801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681753218801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +110,7 @@
     <MESSAGE value="CardinalPoints" />
     <MESSAGE value="CREACIONSHIP" />
     <MESSAGE value="ClaseShip" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClaseShip" />
+    <MESSAGE value="ClaseShipCambioMetodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClaseShipCambioMetodos" />
   </component>
 </project>
