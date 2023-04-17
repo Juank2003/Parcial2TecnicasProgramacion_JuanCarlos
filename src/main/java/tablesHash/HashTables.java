@@ -16,7 +16,7 @@ public class HashTables {
 
     // Methods
     public void addShip(Ship ship) {
-        // Add to hashTableType
+
         if (hashTableType.containsKey(ship.getType())) {
             HashMap<String, Ship> subTable = hashTableType.get(ship.getType());
             subTable.put(ship.getName(), ship);
@@ -26,7 +26,7 @@ public class HashTables {
             hashTableType.put(ship.getType(), subTable);
         }
 
-        // Add to hashTableNumber
+
         if (hashTableNumber.containsKey(ship.getNumber())) {
             HashMap<String, Ship> subTable = hashTableNumber.get(ship.getNumber());
             subTable.put(ship.getName(), ship);
@@ -36,7 +36,7 @@ public class HashTables {
             hashTableNumber.put(ship.getNumber(), subTable);
         }
 
-        // Add to hashTableName
+
         if (hashTableName.containsKey(ship.getName())) {
             HashMap<String, Ship> subTable = hashTableName.get(ship.getName());
             subTable.put(ship.getType(), ship);
@@ -48,19 +48,17 @@ public class HashTables {
     }
 
     public void removeShip(Ship ship) {
-        // Remove from hashTableType
+
         if (hashTableType.containsKey(ship.getType())) {
             HashMap<String, Ship> subTable = hashTableType.get(ship.getType());
             subTable.remove(ship.getName());
         }
 
-        // Remove from hashTableNumber
         if (hashTableNumber.containsKey(ship.getNumber())) {
             HashMap<String, Ship> subTable = hashTableNumber.get(ship.getNumber());
             subTable.remove(ship.getName());
         }
 
-        // Remove from hashTableName
         if (hashTableName.containsKey(ship.getName())) {
             HashMap<String, Ship> subTable = hashTableName.get(ship.getName());
             subTable.remove(ship.getType());

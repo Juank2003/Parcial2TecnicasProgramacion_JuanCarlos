@@ -1,5 +1,4 @@
 package tablesHash;
-import java.util.HashMap;
 
 public class Ship {
     private String name;
