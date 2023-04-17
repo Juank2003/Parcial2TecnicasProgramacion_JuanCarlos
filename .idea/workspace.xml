@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="CreacionClaseUser">
+    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="CreacionBattleShip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/BattleShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681750767910</updated>
-      <workItem from="1681750769410" duration="3590000" />
+      <workItem from="1681750769410" duration="4653000" />
     </task>
     <task id="LOCAL-00001" summary="CreacionCardinalPoints">
       <created>1681751881573</created>
@@ -96,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681754032521</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ClaseUserEjercicio4">
+      <created>1681754885397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681754885398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CreacionBattleShip">
+      <created>1681754994253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681754994253</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +135,8 @@
     <MESSAGE value="ClaseShip" />
     <MESSAGE value="ClaseShipCambioMetodos" />
     <MESSAGE value="CreacionClaseUser" />
-    <option name="LAST_COMMIT_MESSAGE" value="CreacionClaseUser" />
+    <MESSAGE value="ClaseUserEjercicio4" />
+    <MESSAGE value="CreacionBattleShip" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreacionBattleShip" />
   </component>
 </project>

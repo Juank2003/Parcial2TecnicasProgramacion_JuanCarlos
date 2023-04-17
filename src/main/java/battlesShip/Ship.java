@@ -3,13 +3,13 @@ package battlesShip;
 import java.awt.*;
 
 public class Ship {
-    private Point startPoint;
-    private Point endPoint;
-    private int size;
-    private int hits;
-    private boolean isSunk;
-    private CardinalPoints direction;
-    private boolean[] hitsArray;
+    protected Point startPoint;
+    protected Point endPoint;
+    protected int size;
+    protected int hits;
+    protected boolean isSunk;
+    protected CardinalPoints direction;
+    protected boolean[] hitsArray;
 
     //Constructor
 
