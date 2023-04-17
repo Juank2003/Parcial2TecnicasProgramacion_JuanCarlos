@@ -34,6 +34,7 @@ El juego hundir la flota, conocido en el mundo anglosajón por su nombre en ingl
 juego tradicional de estrategia y algo de suerte, que involucra a dos participantes.
 En este ejercicio, vamos a hacer una versión programada en Java para que dos jugadores puedan
 jugar a este juego.
+
 La aplicación va a comenzar permitiendo que cada jugador posicione sus barcos en un único
 tablero. Cada jugador va a ocupar, según sus preferencias, una misma cantidad de casillas,
 horizontal y/o verticalmente, en base a las casillas sobre las cuales están representadas sus naves.
@@ -42,9 +43,11 @@ conforman un portaaviones; tres, una fragata; y una casilla aislada, una canoa.
 No es necesario implementar el docString correspondiente a las funciones y métodos desarrollados,
 aunque se recomienda hacer el diagrama de flujo de los métodos en papel de forma previa a su
 resolución.
+
 En base a estas especificaciones se solicita que:
 a) Programe la clase enumearada CardinalPoints, que contendrá los puntos cardinales: NORTH, EAST,
 SOUTH y WEST, por este orden.
+
 b) Programe la clase Ship.
 • Incluya los atributos de esta clase atributos y establezca la visibilidad adecuada (público,
 privado, protegido). Se aconseja utilizar un punto de partida, el tamaño y el enumerado
@@ -66,6 +69,7 @@ de la posible implementación de este juego, así como de la clase Point, la cua
 Se facilitan también los archivos vacios dónde deberían estar implementadas las clases que se piden
 y que tienen que ser completadas por el alumno. En dichas clases, están ya añadidos los casos de
 tests de cada una de ellas.
+
 c) Programe una clase User.
 • Incluya los atributos de esta clase y establezca la visibilidad adecuada (público, privado,
 protegido).
@@ -85,6 +89,7 @@ el atributo is_alive. Este atributo sirve para saber si el usuario aún está vi
 • Programe el método die(self) de la clase Usuario. Este método set se utiliza para establecer el
 atributo __alive en False. De esta forma, es posible matar al usuario.
 • Pruebe los objetos de la clase Usuario con los test cases que se le han pasado. 
+
 Nota:
 - La diferencia en el Battleship, la frigate y la canoe con el Ship es la forma de ser atacado y el
 tamaño fijo de cada uno de ellos.
