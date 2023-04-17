@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="CREACIONSHIP">
+    <list default="true" id="1abc3f2a-8cbe-41d0-ba4b-c979f923a9f9" name="Changes" comment="ClaseShip">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/battlesShip/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battlesShip/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681750767910</updated>
-      <workItem from="1681750769410" duration="1198000" />
+      <workItem from="1681750769410" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="CreacionCardinalPoints">
       <created>1681751881573</created>
@@ -74,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681751992896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ClaseShip">
+      <created>1681752458996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681752458996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +103,7 @@
     <MESSAGE value="CreacionCardinalPoints" />
     <MESSAGE value="CardinalPoints" />
     <MESSAGE value="CREACIONSHIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="CREACIONSHIP" />
+    <MESSAGE value="ClaseShip" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClaseShip" />
   </component>
 </project>

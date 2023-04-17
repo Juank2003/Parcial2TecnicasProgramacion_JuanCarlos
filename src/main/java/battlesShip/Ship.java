@@ -9,6 +9,7 @@ public class Ship {
     private int hits;
     private boolean isSunk;
     private CardinalPoints direction;
+    private boolean[] hitsArray;
 
     //Constructor
 
@@ -19,6 +20,10 @@ public class Ship {
         this.hits = 0;
         this.isSunk = false;
         this.direction = calculateDirection();
+        this.hitsArray = new boolean[size];
+        for (int i = 0; i < size; i++) {
+            hitsArray[i] = false;
+        }
     }
 
     public Point getStartPoint() {
@@ -60,62 +65,49 @@ public class Ship {
     //Metodos MOdificados
 
     private int calculateSize() {
-        return (int) (Math.max(Math.abs(startPoint.getX() - endPoint.getX()),
-                Math.abs(startPoint.getY() - endPoint.getY())) + 1);
+        int deltaX = (int) Math.abs(endPoint.getX() - startPoint.getX());
+        int deltaY = (int) Math.abs(endPoint.getY() - startPoint.getY());
+        return Math.max(deltaX, deltaY) + 1;
     }
 
     private CardinalPoints calculateDirection() {
-        if (startPoint.getX() == endPoint.getX()) {
-            if (startPoint.getY() > endPoint.getY()) {
-                return CardinalPoints.NORTH;
-            } else {
-                return CardinalPoints.SOUTH;
-            }
-        } else if (startPoint.getY() == endPoint.getY()) {
-            if (startPoint.getX() > endPoint.getX()) {
-                return CardinalPoints.WEST;
-            } else {
-                return CardinalPoints.EAST;
-            }
+        int deltaX = (int) (endPoint.getX() - startPoint.getX());
+        int deltaY = (int) (endPoint.getY() - startPoint.getY());
+        if (deltaX == 0) {
+            return deltaY > 0 ? CardinalPoints.SOUTH : CardinalPoints.NORTH;
         } else {
-            return null;
+            return deltaX > 0 ? CardinalPoints.EAST : CardinalPoints.WEST;
         }
     }
 
     public boolean getShot(Point shotPoint) {
-        if (isSunk()) {
+        if (isSunk) {
             return false;
         }
 
-        if (shotPoint.getX() >= getStartPoint().getX() && shotPoint.getX() <= getEndPoint().getX() &&
-                shotPoint.getY() >= getStartPoint().getY() && shotPoint.getY() <= getEndPoint().getY()) {
+        int deltaX = (int) (endPoint.getX() - startPoint.getX());
+        int deltaY = (int) (endPoint.getY() - startPoint.getY());
 
-            int hitIndex = -1;
-            for (int i = 0; i < getSize(); i++) {
-                Point point = new Point(getStartPoint());
-                if (getDirection() == CardinalPoints.NORTH || getDirection() == CardinalPoints.SOUTH) {
-                    point.translate(i, 0);
-                } else {
-                    point.translate(0, i);
-                }
-                if (shotPoint.equals(point)) {
-                    hitIndex = i;
-                    break;
-                }
-            }
+        int shotX = (int) (shotPoint.getX() - startPoint.getX());
+        int shotY = (int) (shotPoint.getY() - startPoint.getY());
 
-            if (hitIndex == -1) {
-                return false;
-            }
-
-            hits++;
-            if (hits == size) {
-                isSunk = true;
-            }
-
-            return true;
+        if (shotX < 0 || shotX >= size || shotY < 0 || shotY >= size) {
+            return false;
         }
 
-        return false;
+        int hitIndex = direction == CardinalPoints.NORTH || direction == CardinalPoints.SOUTH ? shotY : shotX;
+
+        if (hitsArray[hitIndex]) {
+            return false;
+        }
+
+        hitsArray[hitIndex] = true;
+        hits++;
+
+        if (hits == size) {
+            isSunk = true;
+        }
+
+        return true;
     }
 }
